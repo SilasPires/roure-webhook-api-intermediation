@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
     // Verifica o contactId
     if (body.contactId === '557781243447') {
       const urlDestino =
-        'https://silaspires.app.n8n.cloud/webhook/65964eb7-85d4-4bd0-85c6-16ba3ecd40f8'
+        'https://n8n.srv903228.hstgr.cloud/webhook/65964eb7-85d4-4bd0-85c6-16ba3ecd40f8'
 
       // Envia o mesmo webhook para a URL de destino
       const response = await fetch(urlDestino, {
